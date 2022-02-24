@@ -1,4 +1,4 @@
-package com.huangjw.javaSE;
+package com.wh.javaSE;
 
 import java.util.Scanner;
 
@@ -46,6 +46,15 @@ public class ArrayStudy {
         System.out.println("总体重："+totalHens);
         System.out.println("平均体重："+totalHens/hens.length);
     }
+
+    /**
+     * 功能描述:
+     * @Param: [a, b]
+     * @Date: 2022/2/18 22:08
+     * @return: java.lang.String
+     * @Author: HuangJw
+     **/
+    public static String test(String a, int b){return "";}
 
     /**
      *功能描述: 创建一个 char 类型的 26 个元素的数组，分别 放置'A'-'Z'。
@@ -522,14 +531,14 @@ public class ArrayStudy {
         */
         System.out.print("\n"+"快速排序后的结果：");
         quickSort(arr,0, arr.length-1);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "\t");
+        for (int j : arr) {
+            System.out.print(j + "\t");
         }
         System.out.println();
     }
 
     /***
-     *功能描述: 快速排序法
+     *功能描述: 快速排序法1
      * @param arr 原数组
      * @param left 数组前指针
      * @param right 数组后指针

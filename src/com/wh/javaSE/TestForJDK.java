@@ -1,4 +1,4 @@
-package com.huangjw.javaSE;
+package com.wh.javaSE;
 
 import java.util.ArrayList;
 import java.util.Scanner;
